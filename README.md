@@ -11,9 +11,9 @@ Create a git repository to store your data, notebooks and code.
 
 Group:**Differential Octopus** <br>
 Dataset: 
-1. Police Community Outreach
+1. Police Community Outreach 
 2. Daily Community Center Attendance
-3. Arrests for Major Crimes, 1972
+3. Arrests for Major Crimes, 1972 and Arrests
 
 Platform: [Our Colab Page](https://colab.research.google.com/drive/1tAT08G0DKTuhaBpFw3Mp0xz0u2JGxoeZ#scrollTo=LUDgvPDOTi0i)
 
@@ -26,4 +26,5 @@ Platform: [Our Colab Page](https://colab.research.google.com/drive/1tAT08G0DKTuh
 
 **Proposed Pipeline**
 - For the dataset that majorly contained number, such as _Arrests for Major Crimes, 1972_. We could directly use data visualization and analysis tool such as pandas, numpy and matplotlib
-- For the datasets that featured with text, we plan to use large language model to anlysis the text content, for the accurate geological inforamtion, we plan to use Google API to get the coordinate and further locate the community / neighborhood.
+- For the datasets that featured with text, we think one 
+-  we plan to use large language model to anlysis the text content, for the accurate geological inforamtion, we plan to use Google API to get the coordinate and further locate the community / neighborhood.
