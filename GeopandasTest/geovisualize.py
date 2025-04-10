@@ -2,7 +2,7 @@ import geopandas as gpd
 import matplotlib.pyplot as plt
 
 gdf = gpd.read_file("GeopandasTest/hood.geojson")
-print(gdf.head())
+print(gdf["hood"].unique())
 
 # gdf.plot()
 # ax = gdf.plot(figsize=(10, 10), color=gdf.index.map(lambda x: plt.cm.tab20(x % 20)))
@@ -18,4 +18,4 @@ print(gdf.head())
 
 
 
-plt.show()
+# plt.show()
