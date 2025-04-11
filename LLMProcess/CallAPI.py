@@ -30,4 +30,16 @@ def summarize_citation(citation, neighborhood):
     )
     return completion.choices[0].message.content , neighborhood
 
+def judge_hood_crime(hood_name, crime_records):
+    message = [
+        {"role": "system", "content": "You are a judge, you would be given large text of the crimes records happening in this neighborhood, read them all and summarize them"}
+    ]
+    
+    # we would have concat crime_records into one string
+    message.append({"role": "user", "content": crime_records})
 
+    completion = client.chat.completions.create(
+        model="doubao-1-5-lite-32k-250115",
+        messages=message,
+    )
+    return completion.choices[0].message.content, hood_name
