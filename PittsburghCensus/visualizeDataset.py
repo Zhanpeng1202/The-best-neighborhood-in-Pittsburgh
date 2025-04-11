@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
 
 gdf = gpd.read_file("GeopandasTest/hood.geojson")
-csv_path = "richard/summaryPitt_ALL_MERGED.csv"
+csv_path = "richard/summaryPitt_ALL_MERGED_UNIT.csv"
 
 df_data = pd.read_csv(csv_path)
 # get all columns from df_data

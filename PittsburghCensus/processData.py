@@ -7,9 +7,10 @@ gdf = gpd.read_file("GeopandasTest/hood.geojson")
 
 citations_path = "PittsburghCensus/non-traffic-citation.csv"
 citations_df = pd.read_csv(citations_path)
+print(citations_df["OFFENSES"].head())
 
-neighborhood_counts = citations_df["NEIGHBORHOOD"].value_counts().to_dict()
-print(neighborhood_counts)
+# neighborhood_counts = citations_df["NEIGHBORHOOD"].value_counts().to_dict()
+# print(neighborhood_counts)
 
 # make a new column in the gdf called "citation_count" and set it to the neighborhood_counts dictionary
 # gdf["citation_count"] = gdf["hood"].map(neighborhood_counts)
