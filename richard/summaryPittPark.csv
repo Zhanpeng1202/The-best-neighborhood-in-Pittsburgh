@@ -1,74 +1,74 @@
-NEIGHBORHOOD,Park_Count,Non_Park_Count,Park_Global_Percent,Other_Global_Percent
-Allegheny Center,2,0,0.013071895424836602,0.0
-Allentown,2,0,0.013071895424836602,0.0
-Arlington,1,0,0.006535947712418301,0.0
-Banksville,2,0,0.013071895424836602,0.0
-Bedford Dwellings,1,0,0.006535947712418301,0.0
-Beechview,6,2,0.0392156862745098,0.03571428571428571
-Beltzhoover,3,0,0.0196078431372549,0.0
-Bloomfield,3,0,0.0196078431372549,0.0
-Bluff,1,0,0.006535947712418301,0.0
-Bon Air,1,0,0.006535947712418301,0.0
-Brighton Heights,3,1,0.0196078431372549,0.017857142857142856
-Brookline,2,1,0.013071895424836602,0.017857142857142856
-Carrick,3,0,0.0196078431372549,0.0
-Central Business District,3,7,0.0196078431372549,0.125
-Central Lawrenceville,1,0,0.006535947712418301,0.0
-Central Northside,2,1,0.013071895424836602,0.017857142857142856
-Central Oakland,2,2,0.013071895424836602,0.03571428571428571
-Crafton Heights,2,0,0.013071895424836602,0.0
-Crawford-Roberts,3,0,0.0196078431372549,0.0
-Duquesne Heights,1,1,0.006535947712418301,0.017857142857142856
-East Carnegie,1,0,0.006535947712418301,0.0
-East Hills,1,0,0.006535947712418301,0.0
-East Liberty,4,8,0.026143790849673203,0.14285714285714285
-Elliott,4,0,0.026143790849673203,0.0
-Esplen,1,0,0.006535947712418301,0.0
-Fairywood,1,0,0.006535947712418301,0.0
-Fineview,2,0,0.013071895424836602,0.0
-Garfield,3,0,0.0196078431372549,0.0
-Greenfield,2,1,0.013071895424836602,0.017857142857142856
-Hays,1,0,0.006535947712418301,0.0
-Hazelwood,5,1,0.032679738562091505,0.017857142857142856
-Highland Park,2,0,0.013071895424836602,0.0
-Homewood North,1,1,0.006535947712418301,0.017857142857142856
-Homewood South,1,0,0.006535947712418301,0.0
-Homewood West,1,0,0.006535947712418301,0.0
-Larimer,1,2,0.006535947712418301,0.03571428571428571
-Lincoln Place,2,0,0.013071895424836602,0.0
-Lincoln-Lemington-Belmar,2,1,0.013071895424836602,0.017857142857142856
-Lower Lawrenceville,3,0,0.0196078431372549,0.0
-Manchester,3,0,0.0196078431372549,0.0
-Marshall-Shadeland,4,0,0.026143790849673203,0.0
-Middle Hill,1,0,0.006535947712418301,0.0
-Morningside,1,0,0.006535947712418301,0.0
-Mount Washington,5,1,0.032679738562091505,0.017857142857142856
-New Homestead,1,0,0.006535947712418301,0.0
-North Oakland,0,1,0.0,0.017857142857142856
-North Shore,3,0,0.0196078431372549,0.0
-Oakwood,1,0,0.006535947712418301,0.0
-Perry North,2,0,0.013071895424836602,0.0
-Perry South,2,0,0.013071895424836602,0.0
-Point Breeze,1,6,0.006535947712418301,0.10714285714285714
-Point Breeze North,1,2,0.006535947712418301,0.03571428571428571
-Polish Hill,1,1,0.006535947712418301,0.017857142857142856
-Regent Square,0,1,0.0,0.017857142857142856
-Sheraden,4,2,0.026143790849673203,0.03571428571428571
-South Oakland,3,2,0.0196078431372549,0.03571428571428571
-South Side Flats,3,3,0.0196078431372549,0.05357142857142857
-South Side Slopes,6,1,0.0392156862745098,0.017857142857142856
-Spring Garden,2,0,0.013071895424836602,0.0
-Spring Hill-City View,3,0,0.0196078431372549,0.0
-Squirrel Hill North,1,0,0.006535947712418301,0.0
-Squirrel Hill South,3,3,0.0196078431372549,0.05357142857142857
-Stanton Heights,1,0,0.006535947712418301,0.0
-Strip District,2,0,0.013071895424836602,0.0
-Swisshelm Park,1,2,0.006535947712418301,0.03571428571428571
-Terrace Village,2,0,0.013071895424836602,0.0
-Troy Hill,5,0,0.032679738562091505,0.0
-Upper Hill,1,0,0.006535947712418301,0.0
-Upper Lawrenceville,3,0,0.0196078431372549,0.0
-West End,1,1,0.006535947712418301,0.017857142857142856
-West Oakland,1,0,0.006535947712418301,0.0
-Westwood,2,1,0.013071895424836602,0.017857142857142856
-Windgap,1,0,0.006535947712418301,0.0
+NEIGHBORHOOD,park_count,non_park_count
+Allegheny Center,2,0
+Allentown,2,0
+Arlington,1,0
+Banksville,2,0
+Bedford Dwellings,1,0
+Beechview,6,2
+Beltzhoover,3,0
+Bloomfield,3,0
+Bluff,1,0
+Bon Air,1,0
+Brighton Heights,3,1
+Brookline,2,1
+Carrick,3,0
+Central Business District,3,7
+Central Lawrenceville,1,0
+Central Northside,2,1
+Central Oakland,2,2
+Crafton Heights,2,0
+Crawford-Roberts,3,0
+Duquesne Heights,1,1
+East Carnegie,1,0
+East Hills,1,0
+East Liberty,4,8
+Elliott,4,0
+Esplen,1,0
+Fairywood,1,0
+Fineview,2,0
+Garfield,3,0
+Greenfield,2,1
+Hays,1,0
+Hazelwood,5,1
+Highland Park,2,0
+Homewood North,1,1
+Homewood South,1,0
+Homewood West,1,0
+Larimer,1,2
+Lincoln Place,2,0
+Lincoln-Lemington-Belmar,2,1
+Lower Lawrenceville,3,0
+Manchester,3,0
+Marshall-Shadeland,4,0
+Middle Hill,1,0
+Morningside,1,0
+Mount Washington,5,1
+New Homestead,1,0
+North Oakland,0,1
+North Shore,3,0
+Oakwood,1,0
+Perry North,2,0
+Perry South,2,0
+Point Breeze,1,6
+Point Breeze North,1,2
+Polish Hill,1,1
+Regent Square,0,1
+Sheraden,4,2
+South Oakland,3,2
+South Side Flats,3,3
+South Side Slopes,6,1
+Spring Garden,2,0
+Spring Hill-City View,3,0
+Squirrel Hill North,1,0
+Squirrel Hill South,3,3
+Stanton Heights,1,0
+Strip District,2,0
+Swisshelm Park,1,2
+Terrace Village,2,0
+Troy Hill,5,0
+Upper Hill,1,0
+Upper Lawrenceville,3,0
+West End,1,1
+West Oakland,1,0
+Westwood,2,1
+Windgap,1,0
