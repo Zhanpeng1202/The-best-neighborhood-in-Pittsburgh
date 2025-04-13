@@ -12,6 +12,10 @@ all_columns = df_data.columns.tolist()[1:]
 print(all_columns)
 
 
+# make the neighborhood colum in gdf to be all capitalized
+gdf["hood"] = gdf["hood"].str.upper()
+
+
 df_merge = pd.merge(gdf, df_data, left_on="hood", right_on="NEIGHBORHOOD", how="left")
 
 
@@ -27,11 +31,10 @@ df_merge = pd.merge(gdf, df_data, left_on="hood", right_on="NEIGHBORHOOD", how="
 
 
 for column in all_columns:
+    # do not show the coordinates an do not show the legend
     df_merge.plot(column=column,
-             cmap="Blues",
-            #  norm=LogNorm(vmin=gdf['citation_count'].min(), vmax=gdf['citation_count'].max()),
-             legend=True)
-
+             cmap="Blues")
+    plt.axis('off')
     # save the plot
     fileBaseName = column.replace(" ", "_")
     fileBaseName = column.replace("/", "_")

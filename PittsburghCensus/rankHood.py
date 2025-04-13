@@ -18,6 +18,9 @@ hood_df["student_rank"] = hood_df["TOTAL_STUDENTS_UNIT"].rank(method="min")
 rank_columns = ["crime_rank", "facility_rank", "steps_rank", "park_rank", "tree_rank", "student_rank"]
 all_rank = hood_df[rank_columns].copy()
 
+
+
+
 # Reset index to make NEIGHBORHOOD a regular column again
 all_rank.reset_index(inplace=True) 
 
@@ -30,3 +33,5 @@ all_rank = all_rank.sort_values(by="rank_sum", ascending=False)
 
 # Save to CSV
 all_rank.to_csv("PittsburghCensus/rank_sum.csv", index=False)
+
+
