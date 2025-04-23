@@ -6,9 +6,9 @@
 **Differential Octopus**
 
 # Team Members
-**Zhanpeng Luo** zhl117@pitt.edu<br>(notebook name `notebook/zhanpeng.ipynb`)
+**Richard Xu**   zhx112@pitt.edu<br>(The notebook `notebook/richard.ipynb` )
 
-**Richard Xu**   zhx112@pitt.edu<br>(notebook name `notebook/richard.ipynb`)
+**Zhanpeng Luo** ZhanpengLuo@pitt.edu<br>(All the python scripts)
 # Datasets: 
 
 **Numerical Data**
@@ -36,10 +36,20 @@ This repository includes a jupyter notebook `notebook/main.ipynb` that analyzes 
 - The Best Neighborhood
 - Conclusion
 
-~~**Proposed Pipeline**~~
+# Proposed Pipeline 
 
-~~- For the dataset that majorly contained number, such as _Arrests for Major Crimes, 1972_. We could directly use data visualization and analysis tool such as pandas, numpy and matplotlib~~
+**Geographical Data**<br>
+We use the geojsons provided in this dataset to visualize the result.
 
-~~- For the datasets that featured with text, we think one~~ 
+**Numerical Data**<br>
+For the numerical data part,
 
-~~-  we plan to use large language model to anlysis the text content, for the accurate geological inforamtion, we plan to use Google API to get the coordinate and further locate the community / neighborhood.~~
+**Text Data**<br>
+For the text data part, we choose to leverage the large language model API to process, reason, understand and finally give us an evaluation for the best neighborhood in Pittsburgh.
+Specifically, we call [Doubao API](https://team.doubao.com/en/), a llm provide by bytedance. We choose doubao since there are more than 100,000 items in the total dataset, we have to find a model is fast, allowing for high-concurency and cheap. We use doubao to reason and generate a coarse summarization for the Non-Traffic Citations and Monthly Criminal Activity Dashboard to condense the information and summarize them into predefined labels. After we get the summarized item for each crime, we could visualize them with a word cloud. <br>
+
+Next, we use [Sonar API](https://www.perplexity.ai/hub/blog/introducing-the-sonar-pro-api) provided by Perplexity, we choose it as our judge to final evaluate because 
+ - It is a larger model and is suitable for complex reasoning
+ - Perplexity is famous for online searching, we hope this might reduce the hallucination and help better evaluate the result
+ - Perplexity provide 5 free credit for students!
+To further reduce the context windows, we use a rank sum to get a coarse ranking for the processed data and we only ask model to choose between the 5 neighbourhoods.
