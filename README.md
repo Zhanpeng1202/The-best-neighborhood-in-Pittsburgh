@@ -15,8 +15,9 @@ Dataset:
 2. Daily Community Center Attendance
 3. Arrests for Major Crimes, 1972 and Arrests
 
-Platform: [Our Colab Page](https://colab.research.google.com/drive/1tAT08G0DKTuhaBpFw3Mp0xz0u2JGxoeZ#scrollTo=LUDgvPDOTi0i)
+~~Platform: [Our Colab Page](https://colab.research.google.com/drive/1tAT08G0DKTuhaBpFw3Mp0xz0u2JGxoeZ#scrollTo=LUDgvPDOTi0i)~~
 
+Check our Jupyter notebook file at: `notebook/main.ipynb`
 
 **Content**
 - Introduction:
