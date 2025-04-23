@@ -28,13 +28,13 @@
 Block Groups](https://data.wprdc.org/dataset/2010-census-block-groups)
 
 # Simple Introduction:
-This repository includes a jupyter notebook `notebook/main.ipynb` that analyzes the best neighborhood in Pittsburgh based on some criteria, and the supporting files.
+This repository includes a jupyter notebook `notebook/main.ipynb` that analyzes the best neighborhood in Pittsburgh based on some criteria, and the supporting files. It also includes jupyter notebooks `notebook/richard.ipynb` and `notebook/text-processing.ipynb` that we individually work on.
 
 # Content
 - Introduction
 - Metrics
 - The Best Neighborhood
-- Conclusion
+- Conclusion & Comments
 
 # Proposed Pipeline 
 
@@ -42,7 +42,18 @@ This repository includes a jupyter notebook `notebook/main.ipynb` that analyzes 
 We use the geojsons provided in this dataset to visualize the result.
 
 **Numerical Data**<br>
-For the numerical data part,
+For the numerical data part, we used 6 numerical datasets and numerous entries to try to get a better understanding of the neighborhood. The analyzing process includes the preprocessing process, the merging process, the grading process, and analyzation process.
+
+For the preprocessing process, we generally reads a csv and then get what we want, sometimes do some calculation, and then done.
+
+For the merging process, we merge the data from different datasets into one and export. We than unitize the data by areas so that the result won't be affected by the neighborhood size.
+
+Then we came up with a metric of how to grade the neighborhood. We apply the metric and get the score for each neighborhood. Then, we rank the neighborhoods based on the score.
+
+Then, we do some correlation and linear regression to check if there's anything interesting between different aspects of data.
+We compute the r value for the regression.
+
+Finally, we make a conclusion from the score we got and state the best neighborhood in this part.
 
 **Text Data**<br>
 For the text data part, we choose to leverage the large language model API to process, reason, understand and finally give us an evaluation for the best neighborhood in Pittsburgh.
@@ -53,3 +64,8 @@ Next, we use [Sonar API](https://www.perplexity.ai/hub/blog/introducing-the-sona
  - Perplexity is famous for online searching, we hope this might reduce the hallucination and help better evaluate the result
  - Perplexity provide 5 free credit for students!
 To further reduce the context windows, we use a rank sum to get a coarse ranking for the processed data and we only ask model to choose between the 5 neighbourhoods.
+
+
+**Combination**
+
+We then combine the result from both numeric data and text data together. 
