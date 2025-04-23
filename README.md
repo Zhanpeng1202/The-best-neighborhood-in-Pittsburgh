@@ -8,7 +8,7 @@
 # Team Members
 **Richard Xu**   zhx112@pitt.edu<br>(The notebook `notebook/richard.ipynb` )
 
-**Zhanpeng Luo** ZhanpengLuo@pitt.edu<br>(All the python scripts)
+**Zhanpeng Luo** ZhanpengLuo@pitt.edu<br>(The python scripts and the notebook`notebook/text_process.ipynb`  )
 # Datasets: 
 
 **Numerical Data**
